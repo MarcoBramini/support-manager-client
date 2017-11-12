@@ -3,7 +3,7 @@ import 'dart:core';
 import 'dart:async';
 import 'dart:html';
 
-import 'package:support_manager/services/models/LoginRequest.dart';
+import 'package:support_manager_client/services/models/LoginRequest.dart';
 
 class ClientRPC {
 

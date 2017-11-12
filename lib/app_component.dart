@@ -1,9 +1,9 @@
 import 'package:angular/angular.dart';
 import 'package:angular_components/angular_components.dart';
 
-import 'package:support_manager/SMUI/organism/SMUIChat/chat_component.dart';
-import 'package:support_manager/SMUI/organism/SMUITicketNav/ticketnav_component.dart';
-import 'package:support_manager/services/clientRPC.dart';
+import 'package:support_manager_client/SMUI/organism/SMUIChat/chat_component.dart';
+import 'package:support_manager_client/SMUI/organism/SMUITicketNav/ticketnav_component.dart';
+import 'package:support_manager_client/services/clientRPC.dart';
 
 
 // AngularDart info: https://webdev.dartlang.org/angular

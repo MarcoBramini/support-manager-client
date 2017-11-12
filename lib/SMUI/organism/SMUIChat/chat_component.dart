@@ -1,5 +1,5 @@
 import 'package:angular/angular.dart';
-import 'package:support_manager/SMUI/molecules/SMUIMessage/message_component.dart';
+import 'package:support_manager_client/SMUI/molecules/SMUIMessage/message_component.dart';
 
 @Component(
   selector: 'SMUIChat',
