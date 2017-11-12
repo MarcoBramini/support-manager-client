@@ -1,0 +1,17 @@
+:host{
+    display: flex;
+    max-width: 100%;
+    max-height:100%;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+:host /deep/ SMUIMessage {
+    max-width: 50%;
+}
+
+.owned {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+    background-color: #cdcdcd;
+}
