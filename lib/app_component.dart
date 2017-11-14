@@ -17,7 +17,7 @@ import 'package:support_manager_client/services/clientRPC.dart';
   providers: const [materialProviders],
 )
 class AppComponent {
-  ClientRPC server = new ClientRPC()..doLogin("test@gmail.com", "test");
+  ClientRPC server = new ClientRPC()..doLogin("test@test.it", "test");
 
   List<Message> messages = new List<Message>()
     ..add(new Message()

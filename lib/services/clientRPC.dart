@@ -12,7 +12,8 @@ class ClientRPC {
   ClientRPC();
 
   void doLogin(String userId, String password) {
-    LoginRequest loginRequest = new LoginRequest()..UserId=userId..Password=password;
+    LoginRequest loginRequest = new LoginRequest()..UserId=userId..Password=BASE64.encode(UTF8.encode(password));
+    print(BASE64.encode(UTF8.encode(password)));
     callRPC("Login.DoLogin", params: loginRequest);
   }
 
